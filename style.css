@@ -1,0 +1,80 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #3B3F45;
+  padding: 20px;
+  width: 793px;
+  height: 507px;
+  border: solid 1px;
+  margin: 50px auto;
+}
+
+html {
+  background-color: #f0f0f0;
+}
+
+.shopping-list-container {
+  color: #FF8984;
+  text-align: center;
+  margin: auto;
+}
+
+.shopping-list {
+  align-items: center;
+  background-color: #88839E;
+  color: white;
+  text-align: left;
+  list-style: none;
+  padding: 0px;
+  max-width: 534px;
+  margin: 0 auto;
+
+  li {
+    border: solid 1px white;
+    width: 534px;
+    height: 45px;
+  }
+}
+
+ul.shopping-list li:hover {
+  background-color: #625E77;
+}
+
+input[type="checkbox"] {
+  width: 19px;
+  height: 19px;
+}
+
+input[type="checkbox"]:checked+label {
+  text-decoration: line-through;
+  color: #999;
+}
+
+label::before {
+  content: "🛒 ";
+}
+
+label::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+}
+
+ul.shopping-list li:nth-child(even) {
+  background-color: #625E77;
+}
+
+button {
+  margin: auto;
+  background-color: #4A4F56;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  width: 534px;
+  height: 45px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
