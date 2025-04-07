@@ -77,4 +77,6 @@ button {
   list-style: none;
   display: flex;
   justify-content: center;
+  color: #FF8984;
+  font-size: larger;
 }
