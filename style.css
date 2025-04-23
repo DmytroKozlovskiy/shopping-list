@@ -62,9 +62,7 @@ label::after {
   margin-left: 5px;
 }
 
-ul.shopping-list li:nth-child(even) {
-  background-color: #625E77;
-}
+
 
 button {
   margin: auto;
